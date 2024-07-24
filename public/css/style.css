@@ -1,0 +1,66 @@
+/*Color Schemes:
+
+    Main Color Scheme:
+        #222831 Darkest blue gray
+        #31363F Medium blue gray
+        #76ABAE Iceberg blue
+        #EEEEEE Light gray
+
+*/
+
+* {
+    font-family: "Zilla Slab";
+    background-color: #222831;
+    color: #EEEEEE;
+}
+p {
+    font-size: 18px;
+    background-color: inherit;
+    font-family: Arial;
+}
+h1 {
+    font-weight: bold;
+    background-color: inherit;
+}
+a {
+    text-decoration: none;
+    background-color: inherit;
+    color: #76ABAE;
+}
+
+.card_separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #31363F;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* Login and Sign Up buttons for home page*/
+.flexForLoginButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.bgForLoginButtons {
+    background-color: #76ABAE;
+}
+.anchorForLoginButtons {
+    text-decoration: none;
+    color: black;
+}
+
+/* Title color*/
+.titleColor {
+    color: #EEEEEE;
+}
+
+.border-black {
+    border: black 1px solid;
+}
+.padding {
+    padding: 10px;
+}
