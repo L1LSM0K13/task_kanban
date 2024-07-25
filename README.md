@@ -47,4 +47,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, please contact us at [omarmares@purelymail.com](mailto:omarmares@purelymail.com).
+For any questions or suggestions, please contact me at [omarmares@purelymail.com](mailto:omarmares@purelymail.com).
