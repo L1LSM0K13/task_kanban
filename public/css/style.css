@@ -22,6 +22,10 @@ h1 {
     font-weight: bold;
     background-color: inherit;
 }
+h2 {
+    font-weight: bold;
+    background-color: inherit;
+}
 a {
     text-decoration: none;
     background-color: inherit;
@@ -38,6 +42,10 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+.generalFlex {
+    display: flex;
+    justify-content: center;
+}
 
 /* Login and Sign Up buttons for home page*/
 .flexForLoginButtons {
@@ -47,10 +55,10 @@ a {
 }
 .bgForLoginButtons {
     background-color: #76ABAE;
+    color: black;
 }
 .anchorForLoginButtons {
     text-decoration: none;
-    color: black;
 }
 
 /* Title color*/

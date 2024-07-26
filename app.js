@@ -11,7 +11,8 @@ const mongoose = require('mongoose');
 const uri = process.env.MONGODB_URI;
 
 // Routes
-const indexRouter = require('./src/routes/index.route');
+const indexRouter = require('./src/routes/index.route');``
+const projectRouter = require('./src/routes/project.route');
 
 // Middleware
 app.use(express.json());
@@ -27,6 +28,7 @@ app.use((req, res, next) => {
 app.set("view engine", "ejs");
 
 app.use('/', indexRouter);
+app.use('/project', projectRouter);
 
 function main() {
     const PORT = process.env.PORT || 8080;
